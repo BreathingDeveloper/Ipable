@@ -3,10 +3,9 @@ section {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 90vh;
-    padding: 15vw;
-    margin-top: -30vh;
-    max-height: 90vh;
+    min-height: 100vh;
+    padding: 0 7.5vh 7.5vh;
+    max-height: 100vh;
 }
 
 .text {
@@ -35,6 +34,10 @@ section {
     color: white;
     font-size: 5vw;
 
+}
+
+.tester {
+    background-color: yellow;
 }
 
     
