@@ -1,5 +1,43 @@
 
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 90vh;
+    padding: 15vw;
+    margin-top: -30vh;
+    max-height: 90vh;
+}
 
+.text {
+    margin-top: -5px;
+    color: #e0ded7;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: white;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.hidden { 
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+}
+.test {
+    -webkit-box-reflect: below -5px linear-gradient(transparent, rgba(255,255,255,0.2));
+    color: white;
+    font-size: 5vw;
+
+}
+
+    
 
 .title1 {
     margin-top: -5px;
@@ -10,7 +48,7 @@
     border: white;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 10px;
+    letter-spacing: 14px;
     color: white;
     font-size: 10vw;
     -webkit-box-reflect: below -60px linear-gradient(transparent, rgba(255,255,255,0.4));
@@ -18,7 +56,6 @@
 }
 
 html {
-    overflow-y: hidden; 
     overflow-x: hidden;
     display:grid;
     height: 100%;
